@@ -15,7 +15,12 @@
   "host_permissions": ["https://*/*", "http://*/*"],
   "web_accessible_resources": [
     {
-      "resources": ["/react/index.js", "/react/vendor.js", "/react/index.css"],
+      "resources": [
+        "/react/index.js",
+        "/react/vendor.js",
+        "/react/index.css",
+        "/assets/snapicon.png"
+      ],
       "matches": ["<all_urls>"]
     }
   ]
