@@ -4,7 +4,10 @@
   app.style.position = "fixed";
   app.style.top = "10px";
   app.style.right = "10px";
-  app.style.zIndex = "9999"; // Ensure the app appears above other elements
+  app.style.width = "50px";
+  app.style.height = "50px";
+  app.style.zIndex = "9999";
+  app.style.borderRadius = "50%";
   document.body.append(app);
 
   const src = chrome?.runtime?.getURL("/react/index.js");
